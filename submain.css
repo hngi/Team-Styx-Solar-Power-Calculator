@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color:  #407434;
+}
+.nav {
+    background-color: none;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    float: center;
+    margin-left: 7%;
+}
+.howtouse{
+    padding:40px;
+    padding-top: 20px;
+    position: relative;
+    margin-left: 20%; 
+    display: flex;
+    width: 100%;
+}
+#topic{
+    padding: 20px;
+    padding-top: 25px;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 40px;
+    display:flex;
+        
+}
+.welcome {
+    margin-left: 7%;
+    padding-top: 20px;
+    display: flex;
+    font-style: normal;
+    font-size: 24px;
+    
+    
+}
+#fullnote{
+    margin-left: -9%;
+    padding-top:80px;
+    width: 80%;
+    Height: 75%;
+    text-align: justify;
+    line-height: 2em;
+    display:flex;
+    
+}
+a:link {
+    color: rgb(15, 129, 19);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(42, 73, 7);
+}
