@@ -11,14 +11,7 @@ body {
     font-family: sans-serif;
 }
 
-footer{
-    color: rgb(15, 129, 19);
-    text-align:center;
-	font-weight: bold;
-}
-
 .nav {
-    color: ;
     background-color: none;
     padding: 10px;
     padding-top: 30px;
@@ -70,6 +63,7 @@ footer{
 	font-size: 25px;
     text-shadow: 1px 1px #3B722F;
     margin-top:10px;
+    margin-left: 8%;
 }
 
 /*button*/
@@ -86,7 +80,7 @@ footer{
     cursor: pointer;
     border-radius: 20px;
     margin-top: 8%;
-    margin-left: 7%;
+    margin-left: 15%;
 
 }
 
@@ -150,5 +144,11 @@ a:active {
     margin-left: 7%;
     margin-top: 8%;
     word-spacing: 3em;
+}
+
+footer{
+    color: rgb(15, 129, 19);
+    text-align:center;
+	font-weight: bold;
 }
 
