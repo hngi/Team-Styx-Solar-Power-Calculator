@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://res.cloudinary.com/ddtech/image/upload/v1569248094/TEAM%20STYX/BACK_GROUND_gcahlg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.nav {
+    color: ;
+    background-color: none;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    float: center;
+    margin-left: 7%;
+}
+
+#link_bar a {
+    padding: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+#link_bar a:link {
+    color: rgb(15, 129, 19);
+}
+
+#link_bar a:visited {
+    color: rgb(15, 129, 19);
+}
+
+#link_bar a:hover {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: rgb(124, 218, 17);
+    border-radius: 15px;
+}
+
+#link_bar a:active {
+    color: #f0f0f0;
+    background-color: #00ff00;
+    width: 
+}
+
+.sub1{float: left;
+    background: white;
+    width: 150px;
+    margin: 0px 0px 0px 40px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+}
+.sub1.2{
+    margin: 18px 0px 40px;
+}
+.sub2{
+    float: left;
+    background: white;
+    width: 150px;
+    margin: 0px 0px 0px 40px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.sub3{
+    float: left;
+    background: white;
+    width: 80px;
+    margin: -1px 0px 0px 40px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.sub4{
+    background-blend-mode: color;
+    float: left;
+    width: 200px;
+    margin: 18px 0px 0px 110px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.sub5{
+    float: left;
+    background-blend-mode: color;
+    width: 200px;
+    margin: 18px 0px 0px -100px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+.sub6{   
+    
+    background: white;
+    width: 250px;
+    padding-left: 80px;
+    margin: 90px 0px 0px -50px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+}
+
+.sub7{
+    padding-left: 80px;
+    background: white;
+    width: 150px;
+    color: rgb(15, 129, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+
+}
+.subj{
+    margin: 0px 0px 0px 150px;
+}
+
+#quant{
+    border-radius: 3px;
+    outline: 4px;
+    margin: 0;
+    padding: 0;
+}
+#panel{
+    border-radius: 3px;
+    outline: 4px;
+    margin: 0;
+    padding: 0;
+}
+#lname{
+    border-radius: 3px;
+    outline: 4px;
+    margin: 0;
+    padding: 0;
+}
+#cal{
+    background-color: rgb(15, 129, 19);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px 16px;
+
+}
+/*button*/
+.btn {
+    background-color: rgb(15, 129, 19);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 25%;
+    margin-left: 7%;
+
+}
+
+.btn {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+#foot-icons{
+    margin-left: 7%;
+    margin-top: 5%;
+    word-spacing: 3em;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;   
+}
+
+ul li{
+    padding: 8px;
+    float:left;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+ul li b {
+    text-decoration: none;
+    color:rgb(15, 129, 19);
+}
+ul li c {
+    float: right;
+    border: block 4px;
+}
+.jay{
+    padding: 8px;
+    float: left;
+    text-align: right;
+    border-radius: 3px;
+}
