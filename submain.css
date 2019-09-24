@@ -42,23 +42,43 @@ body {
     display: flex;
     font-style: normal;
     font-size: 24px;
+    position: relative;
     
     
 }
-#fullnote{
-    margin-left: -9%;
-    padding-top:80px;
+.fullnote{
+    margin-left: 7%;
+    padding-top:30px;
     width: 80%;
-    Height: 75%;
+    height: 75%;
     text-align: justify;
     line-height: 2em;
     display:flex;
+    position:relative;
+    font-style: normal;
+    font-size: 24px;
     
 }
-a:link {
-    color: rgb(15, 129, 19);
+#link a {
+    color:#25461e;
     text-decoration: none;
 }
-a:hover {
-    color: rgb(42, 73, 7);
+#link a:hover {
+    color: rgb(121, 221, 6);
+}
+#address
+        {
+            padding-top: 50px;
+        }
+#fullmarg
+{
+    margin-left: 7%;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
 }
