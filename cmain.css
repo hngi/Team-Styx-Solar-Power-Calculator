@@ -65,11 +65,13 @@ h1{
 .contact input{
     width: 200px;
     border-radius: 4px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    border-color:  rgb(15, 129, 19);
 }
-#msg{
+#msg{border-color:  rgb(15, 129, 19);
     border-radius: 4px;
     margin-bottom: 15px;
+    border-width: 2px;
 }
 
 #sub{
