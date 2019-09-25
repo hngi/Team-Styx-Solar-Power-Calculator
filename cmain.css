@@ -12,7 +12,6 @@ body {
 }
 
 .nav {
-    color: ;
     background-color: none;
     padding: 10px;
     padding-top: 30px;
@@ -47,7 +46,6 @@ body {
 #link_bar a:active {
     color: #f0f0f0;
     background-color: #00ff00;
-    width: 
 }
 /*Contact page css comes in here*/
 h1{
