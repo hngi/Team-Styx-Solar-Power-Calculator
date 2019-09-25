@@ -94,3 +94,20 @@ footer{
     text-align: center;
     color: rgb(15, 129, 19);
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .body {
+      width: 80%;
+      padding: 0;
+    }
+    .intro {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body, #link_bar ,.intro {
+      width: 100%;
+    }
+  }
