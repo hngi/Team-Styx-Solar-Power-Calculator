@@ -1,3 +1,3 @@
 # Team-Styx-Solar-Power-Calculator
 A repository for team styx.
-Burinious added index page.
+Tife blvck made tweaks on index.html, contact.html, power.css,cmain.css.
