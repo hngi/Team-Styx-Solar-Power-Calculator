@@ -1,3 +1,3 @@
 # Team-Styx-Solar-Power-Calculator
-A repository for team styx
-This branch contains the Help and the finish HTML file 
+A repository for team styx.
+Tife blvck made tweaks on index.html, contact.html, power.css,cmain.css.
