@@ -1,0 +1,234 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(15, 129, 19);;
+}
+body {
+    background-image: url("https://res.cloudinary.com/ddtech/image/upload/v1569248094/TEAM%20STYX/BACK_GROUND_gcahlg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+label{
+    color: rgb(15, 129, 19);
+    font-weight:bold;
+}
+
+.nav {
+    color: ;
+    background-color: none;
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+    float: center;
+    margin-left: 7%;
+}
+
+#link_bar a {
+    padding: 15px;
+    font-weight: bold;
+    float: left;
+    text-decoration: none;
+}
+
+#link_bar a:link {
+    color: rgb(15, 129, 19);
+}
+
+#link_bar a:visited {
+    color: rgb(15, 129, 19);
+}
+
+#link_bar a:hover {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background-color: rgb(124, 218, 17);
+    border-radius: 15px;
+}
+
+#link_bar a:active {
+    color: #f0f0f0;
+    background-color: #00ff00;
+    width: 
+}
+
+h4{
+    display: block;
+    color:  rgb(15, 129, 19);
+}
+
+.container p{
+    margin-top:0;
+}
+.container1{
+    background-color: #EFFBFE;
+    margin:auto;
+    width:90%;
+    border: 1px solid rgb(15, 129, 19);
+}
+.container1 input{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.flex{
+    display: flex;
+    margin-top: none;
+}
+
+.sub1{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub2{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub3{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub4{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub5{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.plus h4{
+    margin-left:100px;
+    color:  rgb(15, 129, 19);
+
+}
+
+.sub6 input{
+    display: inline;
+    margin:0px 20px 15px 10px;
+}
+
+.sub6 h4{
+    display: inline;
+    margin-left:10px;
+}
+
+.container input[type="submit"]{
+    background-color: rgb(15, 129, 19);
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline;
+    font-size: 14px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container2{
+     background-color: #EFFBFE;
+    width:70%;
+    border: 1px solid rgb(15, 129, 19);
+    margin-top: 20px;
+    float: left;
+    margin-left: 5%
+}
+
+.container2 input,.sub8 label, .sub9 select{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container2 select{
+    display:block;
+}
+
+.sub7{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.sub8{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub8 label,.sub7 p{
+    display:block;
+}
+
+.sub9{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub9 select{
+    width:100%;
+}
+
+.sub0{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+
+.flex2{
+    display:flex;
+}
+
+
+.float{
+    float:right;
+    width:14%;
+    margin-top:8%;
+}
+
+.float button{
+     background-color: rgb(15, 129, 19);
+    border: none;
+    color: white;
+    padding: 3px 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.clr{
+    clear: both;
+}
+
+#foot-icons{
+    margin-left: 7%;
+    margin-top: 0.5%;
+    word-spacing: 3em;
+}
+
+footer{
+    color: rgb(15, 129, 19);
+    text-align:center;
+    font-weight: bold;
+}
