@@ -63,6 +63,14 @@ h4{
     color:  rgb(15, 129, 19);
 }
 
+#quant{
+
+    border-radius:6px;   
+    border-color: rgb(15, 129, 19);
+}
+#lname{border-radius:6px;   
+    border-color: rgb(15, 129, 19);
+}
 .container p{
     margin-top:0;
 }
