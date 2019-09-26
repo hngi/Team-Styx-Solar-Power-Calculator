@@ -21,6 +21,7 @@ body {
     margin-left: 7%;
 }
 
+
 #link_bar a {
     padding: 15px;
     font-weight: bold;
@@ -48,6 +49,23 @@ body {
     background-color: #00ff00;
 }
 
+.intro h1{
+	color: #3B722F;
+	font-size:50px;
+	margin-top:60px;
+	text-shadow: 2px 2px #FFD635;
+	margin-left: 30px;
+	padding-top: 30px;
+}
+.intro h2{
+	color:#FFD635;
+	margin-left: 35px;
+	font-size: 25px;
+    text-shadow: 1px 1px #3B722F;
+    margin-top:10px;
+    margin-left: 8%;
+}
+
 /*button*/
 .btn {
     background-color: rgb(15, 129, 19);
@@ -57,11 +75,12 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight:bold;
     cursor: pointer;
-    border-radius: 15px;
-    margin-top: 25%;
-    margin-left: 7%;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-left: 15%;
 
 }
 
@@ -69,8 +88,45 @@ body {
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  animation: button 2s ease infinite;
+  -webkit-animation: button 2s ease infinite;
 }
 
+@keyframes button {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+  
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+  
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+  
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
 .btn:hover {
     background-color: grey;
     color: white;
@@ -86,13 +142,16 @@ a:active {
 }
 #foot-icons{
     margin-left: 7%;
-    margin-top: 10%;
+    margin-top: 8%;
     word-spacing: 3em;
 }
+
 footer{
-    display: block;
-    text-align: center;
     color: rgb(15, 129, 19);
+    text-align:center;
+	font-weight: bold;
+}
+
 }
 
 @media only screen and (max-width:800px) {
@@ -110,4 +169,3 @@ footer{
     body, #link_bar ,.intro {
       width: 100%;
     }
-  }
