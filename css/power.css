@@ -1,7 +1,8 @@
-*{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(15, 129, 19);;
 }
 body {
     background-image: url("https://res.cloudinary.com/ddtech/image/upload/v1569248094/TEAM%20STYX/BACK_GROUND_gcahlg.png");
@@ -9,12 +10,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
+    font-size: 14px;
+}
+
+label{
+    color: rgb(15, 129, 19);
+    font-weight:bold;
 }
 
 .nav {
+    color: ;
     background-color: none;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex;
     position: relative;
     float: center;
@@ -25,6 +33,7 @@ body {
     padding: 15px;
     font-weight: bold;
     float: left;
+    text-decoration: none;
 }
 
 #link_bar a:link {
@@ -46,180 +55,188 @@ body {
 #link_bar a:active {
     color: #f0f0f0;
     background-color: #00ff00;
+    width: 
 }
 
-.sub1{float: left;
-    background: white;
-    width: 150px;
-    margin: 0px 0px 0px 40px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-
-}
-.sub12{
-    margin: 18px 0px 40px;
-}
-.sub2{
-    float: left;
-    background: white;
-    width: 150px;
-    margin: 0px 0px 0px 40px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-
-.sub3{
-    float: left;
-    background: white;
-    width: 80px;
-    margin: -1px 0px 0px 40px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-.sub4{
-    background-blend-mode: color;
-    float: left;
-    width: 200px;
-    margin: 18px 0px 0px 110px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-.sub5{
-    float: left;
-    background-blend-mode: color;
-    width: 200px;
-    margin: 18px 0px 0px -100px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-}
-
-
-.sub6{   
-    
-    background: white;
-    width: 250px;
-    padding-left: 80px;
-    margin: 90px 0px 0px -50px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    
-}
-
-.sub7{
-    padding-left: 80px;
-    background: white;
-    width: 150px;
-    color: rgb(15, 129, 19);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-
-
-}
-.subj{
-    margin: 0px 0px 0px 150px;
+h4{
+    display: block;
+    color:  rgb(15, 129, 19);
 }
 
 #quant{
-    border-radius: 3px;
-    outline: 4px;
-    margin: 0;
-    padding: 0;
+
+    border-radius:6px;   
+    border-color: rgb(15, 129, 19);
 }
-#panel{
-    border-radius: 3px;
-    outline: 4px;
-    margin: 0;
-    padding: 0;
+#lname{border-radius:6px;   
+    border-color: rgb(15, 129, 19);
 }
-#lname{
-    border-radius: 3px;
-    outline: 4px;
-    margin: 0;
-    padding: 0;
+.container p{
+    margin-top:0;
 }
-#cal{
+.container1{
+    background-color: #EFFBFE;
+    margin:auto;
+    width:90%;
+    border: 1px solid rgb(15, 129, 19);
+}
+.container1 input{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.flex{
+    display: flex;
+    margin-top: none;
+}
+
+.sub1{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub2{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub3{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub4{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub5{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.plus h4{
+    margin-left:100px;
+    color:  rgb(15, 129, 19);
+
+}
+
+.sub6 input{
+    display: inline;
+    margin:0px 20px 15px 10px;
+}
+
+.sub6 h4{
+    display: inline;
+    margin-left:10px;
+}
+
+.container input[type="submit"]{
     background-color: rgb(15, 129, 19);
     border: none;
+    color: white;
+    padding: 3px 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+    display: inline;
+    font-size: 14px;
+    font-weight:bold;
     cursor: pointer;
-    border-radius: 15px;
-    padding: 10px 16px;
-
+    border-radius: 20px;
 }
-/*button*/
-.btn {
-    background-color: rgb(15, 129, 19);
+
+.container2{
+     background-color: #EFFBFE;
+    width:70%;
+    border: 1px solid rgb(15, 129, 19);
+    margin-top: 20px;
+    float: left;
+    margin-left: 5%
+}
+
+.container2 input,.sub8 label, .sub9 select{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container2 select{
+    display:block;
+}
+
+.sub7{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.sub8{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub8 label,.sub7 p{
+    display:block;
+}
+
+.sub9{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+.sub9 select{
+    width:100%;
+}
+
+.sub0{
+    text-align: center;
+    margin-left:50px;
+    margin-right: 20px;
+}
+
+
+.flex2{
+    display:flex;
+}
+
+
+.float{
+    float:right;
+    width:14%;
+    margin-top:8%;
+}
+
+.float button{
+     background-color: rgb(15, 129, 19);
     border: none;
     color: white;
+    padding: 3px 15px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight:bold;
     cursor: pointer;
-    border-radius: 15px;
-    margin-top: 25%;
-    margin-left: 7%;
-
+    border-radius: 20px;
 }
 
-.btn {
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
+.clr{
+    clear: both;
 }
 
-.btn:hover {
-    background-color: grey;
-    color: white;
-}
-
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-    color: white;
-    text-decoration: none;
-}
 #foot-icons{
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 0.5%;
     word-spacing: 3em;
 }
 
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;   
-}
-
-ul li{
-    padding: 8px;
-    float:left;
-    width: 200px;
-    height: 20px;
-    text-align: center;
-}
-ul li b {
-    text-decoration: none;
-    color:rgb(15, 129, 19);
-}
-ul li c {
-    float: right;
-    border: block 4px;
-}
-.jay{
-    padding: 8px;
-    float: left;
-    text-align: right;
-    border-radius: 3px;
+footer{
+    color: rgb(15, 129, 19);
+    text-align:center;
+    font-weight: bold;
 }
