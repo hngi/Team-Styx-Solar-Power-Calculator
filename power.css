@@ -1,8 +1,8 @@
-*{
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(15, 129, 19);;
+    color: rgb(15, 129, 19);
 }
 body {
     background-image: url("https://res.cloudinary.com/ddtech/image/upload/v1569248094/TEAM%20STYX/BACK_GROUND_gcahlg.png");
@@ -19,6 +19,7 @@ label{
 }
 
 .nav {
+    color: ;
     background-color: none;
     padding: 10px;
     padding-top: 10px;
@@ -54,6 +55,7 @@ label{
 #link_bar a:active {
     color: #f0f0f0;
     background-color: #00ff00;
+    width: 
 }
 
 h4{
@@ -238,19 +240,3 @@ footer{
     text-align:center;
     font-weight: bold;
 }
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .container {
-      width: 80%;
-      padding: 0;
-    }
-    .container1, .container2b {
-      width: 100%;
-    }
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    body, .container1, .container,.container2 {
-      width: 100%;
-    }
-  }
