@@ -1,5 +1,5 @@
 # Team-Styx-Solar-Power-Calculator
-A repository for team styx.
+A repository for Team STYX.
 
 For Visitors: Hi there, Welcome to the STYX energy solar power calculator. This Solar calculator is like no other, this Solar calculator helps you to know the required solar pannel sheets and time required to power your appliances in your home or organisation. 
 
