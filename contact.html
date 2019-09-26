@@ -1,47 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Contact</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/contact.css'>
-    <link rel="icon" type="image/png" href="https://res.cloudinary.com/ddtech/image/upload/v1569250993/TEAM%20STYX/ECO_y47s24.png"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html"><img src="https://res.cloudinary.com/ddtech/image/upload/v1569250993/TEAM%20STYX/ECO_y47s24.png" alt="some text"
-            width=120 height=80></a>
-                <div id="link_bar">
-                    <a href="index.html">HOME</a>
-                    <a href="power.html">POWER CALCULATOR</a>
-                    <a href="contact.html">CONTACT</a>
-                </div>
-            </div> 
-            <!--Contact Page comes in Here-->
-        <h1>CONTACT US</h1>
-        <div class="contact">
-            <form>
-                <p>Name</p>
-                <input type="text" required>
-             <p>Email address</p>
-                <input type="email" placeholder="@mail.com" required>
-                <p>Message</p>
-                <textarea cols="75" rows="5" id="msg" placeholder="Type in your message" required></textarea>
-                <br><br>
-                <input type="submit" value="Submit" id="sub">
-            </form>
-        </div>
-            <!--contact page ends-->
-            <div id="foot-icons">
-                <img src="https://res.cloudinary.com/burinious/image/upload/v1569291583/solar%20icons/icons8-facebook-f-24_dorknm.png"
-                    alt="some text" width=30 height=30>
-                <img src="https://res.cloudinary.com/burinious/image/upload/v1569291582/solar%20icons/icons8-twitter-50_kib9j7.png"
-                    alt="some text" width=30 height=30>
-                <img src="https://res.cloudinary.com/burinious/image/upload/v1569291585/solar%20icons/icons8-instagram-50_wdhyem.png"
-                    alt="some text" width=30 height=30>
-                </footer>
-            </div>
-   
+    <nav class="navbar navbar-expand-sm navbar-dark">    
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-2">
+                     <!-- Brand/logo -->
+                      <a class="navbar-brand" href="#">
+                        <img src="ECO_y47s24.png" alt="logo" style="width:70px;">
+                      </a>
+                 </div>
+                 <div class="col-md-10">
+                     <!-- Links -->
+                      <ul class="navbar" id="navbar">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">power calculator</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">contact</a>
+                        </li>
+                      </ul>
+                 </div>
+             </div>
+         </div>     
+    </nav>
+    
+    <section>
+       <div class="container">
+          <br>
+           <div class="row">
+               <div class="col-md-5">
+                  <img src="contact_art_work_heaw68.png" class="img-fluid img" alt="">
+                  
+                  <div class="row">
+                      <div class="col-md-6 text-center">
+                         <br>
+                          <img src="mail_icon_jvbslt.png" class="img-fluid email_icon" alt=""><strong style="color: #3B722F;">EMAIL</strong>
+                          <h6 class="mail">info@styx.com</h6>
+                          <h6 class="mail">styx@gmail.com</h6>
+                      </div>
+                      <div class="col-md-6">
+                         <br>
+                          <img src="phone_icon_bzcbih.png" class="img-fluid email_icon" alt=""><strong style="color: #3B722F;">EMAIL</strong>
+                          <h6 class="mail">+2347038689968</h6>
+                          <h6 class="mail">+2347059324932</h6>
+                      </div>
+                  </div> 
+               </div>
+               <div class="col-md-1">
+               
+               </div>
+               <div class="col-md-6">
+                   <form action="">
+                        <div class="input_group">
+                            <input type="text" placeholder="Name" name="" required>
+                        </div>
+                        <div class="input_group">
+                            <input type="text" placeholder="Subject" name="" required>
+                        </div>
+                        <div class="input_group">
+                            <input type="text" placeholder="Email" name="" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" placeholder="Tel" name="" required>
+                        </div>
+                        <div class="input_group">
+                            <textarea name="" placeholder="Message" id="" cols="30" rows="8"></textarea>
+                        </div>  
+                        <br>                      
+                        <center><a href="#" class="contact_btn">SEND MESSAGE&nbsp;&nbsp;<i class="fa fa-paper-plane"></i></a></center>
+                    </form>
+               </div>
+           </div>
+       </div>
+    </section>
 </body>
 </html>

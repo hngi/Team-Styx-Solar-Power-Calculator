@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../BACK_GROUND_2_izdcyn.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+nav {
+    display: flex;
+}
+#navbar {
+    list-style-type: none;
+}
+.nav-item a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #3B722F;
+}
+.nav-item a:hover {
+    
+    color: #3B722F;
+}
+.logo {
+    order: 1;
+}
+.img {
+    width: 80%;
+    margin-left: 10%;
+}
+.
+ nav .menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+     padding: 5% 8%;
+}
+.input_group {
+     display: flex;
+}
+.input_group input {
+    height: 40px;
+}
+.input_group input, .input_group input:focus, .input_group input:valid, .input_group input:active, .input_group textarea {
+    flex: 1;
+    margin-bottom: 2%;
+    background: #81B45B;
+    color: #fff;
+    outline: none;
+    border: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  margin-right: 10%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+     margin-right: 10%;
+}
+::-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+     margin-right: 10%;
+}
+.email_icon {
+    width: 20%;
+}
+.mail {
+    margin-top: -4%;
+    color: #3B722F;
+}
+.contact_btn {
+    color: #fff;
+    font-weight: 600;
+    background: #3B722F;
+    border: 0;
+    border-radius: 30px;
+    padding: 2% 5%;
+    margin-top: 50%;
+}
+.contact_btn:hover {
+   color: #fff;
+    text-decoration: none;
+}
+
+
+/*----------------------------CSS FOR CAL PAGE------------------------------------*/
+
+
