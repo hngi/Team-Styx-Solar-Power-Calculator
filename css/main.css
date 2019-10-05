@@ -65,23 +65,24 @@ body {
     margin-top:10px;
     margin-left: 8%;
 }
-.faq{
-  background: rgb(209, 248, 239);
-  width: 500px;
-  margin: 0px 0px 0px 430px;
-  color: #3B722F;
-  font-size: 18px;
-          padding: 20px;
-  border-radius: 10px;
-  opacity: 10;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.faq h1{
- color: #3B722F;
-padding-right: 8px;
+/*button*/
+.btn {
+    background-color: rgb(15, 129, 19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-left: 15%;
+
 }
-/*ends here    */
 
 .btn {
     -webkit-transition-duration: 0.4s;
