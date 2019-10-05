@@ -1,0 +1,4 @@
+[26-Sep-2019 12:09:25 Africa/Lagos] PHP Warning:  Invalid argument supplied for foreach() in /home/afroblog/styx.afroblogit.com/solarcalculator/power.php on line 59
+[29-Sep-2019 09:07:04 Africa/Lagos] PHP Parse error:  syntax error, unexpected end of file in /home/afroblog/styx.afroblogit.com/solarcalculator/contact.php on line 183
+[29-Sep-2019 09:07:28 Africa/Lagos] PHP Parse error:  syntax error, unexpected end of file in /home/afroblog/styx.afroblogit.com/solarcalculator/contact.php on line 183
+[29-Sep-2019 09:08:42 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'afroblog_admin'@'localhost' to database 'solarcalc' in /home/afroblog/styx.afroblogit.com/solarcalculator/contact.php on line 3
